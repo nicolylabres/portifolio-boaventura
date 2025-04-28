@@ -1,0 +1,102 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #111;
+    color: #eee;
+}
+
+/* Cabeçalho */
+.cabecalho {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+}
+
+.cabecalho h1 {
+    font-size: 2.5rem;
+}
+
+.menu {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.menu li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.menu a {
+    color: #00f2ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Seções */
+.sobre, .musicas, .contato {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.sobre {
+    background-color: #1a1a1a;
+}
+
+.sobre img {
+    width: 300px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.texto-sobre h2 {
+    margin-bottom: 10px;
+}
+
+/* Músicas */
+.musicas {
+    background-color: #121212;
+}
+
+.card-musica {
+    margin-top: 20px;
+}
+
+.card-musica img {
+    width: 300px;
+    border-radius: 15px;
+}
+
+.card-musica h3 {
+    margin-top: 10px;
+}
+
+/* Contato */
+.contato {
+    background-color: #1a1a1a;
+}
+
+.botao-contato {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #00f2ff;
+    color: #111;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+/* Rodapé */
+.rodape {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+}
